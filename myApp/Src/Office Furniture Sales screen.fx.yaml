@@ -558,7 +558,6 @@
                                 RadiusBottomRight: =0
                                 RadiusTopLeft: =0
                                 RadiusTopRight: =0
-                                Size: =13
                                 Tooltip: =Parent.DisplayName
                                 Width: =Parent.Width - 60
                                 X: =30
