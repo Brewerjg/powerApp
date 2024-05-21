@@ -1,0 +1,3 @@
+{
+  "AppFromDataMetaDataIdsToEntityNameMappings": "{\"%DataSourceName.AFD%\":\"Office Furniture Sales\",\"%DataSourceValue.AFD%\":\"[@'Office Furniture Sales']\",\"%SortFieldName.AFD%\":\"\\\"crca4_contact\\\"\",\"%FilterFieldName.AFD%\":\"crca4_contact\",\"%PrimaryNameField.AFD%\":\"crca4_orderid\",\"%PrimaryNameFieldDisplayName.AFD%\":\"'Order ID'\",\"%SearchFieldName.AFD%\":\"crca4_contact,crca4_contactnumber,crca4_customername\",\"%StartsWithFieldName.AFD%\":\"crca4_contact\",\"%DeleteConfirmFieldName.AFD%\":\"crca4_contact\",\"%SortDescending.AFD%\":\"SortDescending1\",\"%CopilotSinglePageScreen.ID%\":\"'Office Furniture Sales screen'\",\"%BrowseContainer.ID%\":\"BrowseGallery1\",\"%DetailEditContainer.ID%\":\"EditForm1\"}"
+}
