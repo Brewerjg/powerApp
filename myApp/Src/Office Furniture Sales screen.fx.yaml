@@ -770,6 +770,7 @@
                                 DisplayMode: =Parent.DisplayMode
                                 FocusedBorderThickness: =4
                                 Font: =Font.'Segoe UI'
+                                LineHeight: =1.3
                                 PaddingLeft: =0
                                 PaddingRight: =0
                                 PaddingTop: =0
