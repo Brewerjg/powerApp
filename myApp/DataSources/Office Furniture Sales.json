@@ -1,0 +1,160 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crca4_officefurnituresaleses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crca4_officefurnituresales",
+    "MaxGetRowsCount": 500,
+    "Name": "Office Furniture Sales",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "crca4_category": "Category",
+      "crca4_contact": "Contact",
+      "crca4_contactnumber": "Contact Number",
+      "crca4_customername": "Customer Name",
+      "crca4_dateordered": "Date Ordered",
+      "crca4_discountapprovalstatus": "Discount Approval Status",
+      "crca4_discountavailable": "Discount Available",
+      "crca4_fullpricecharge": "Full Price Charge",
+      "crca4_numberordered": "Number Ordered",
+      "crca4_officefurnituresales_AsyncOperations": "System Jobs",
+      "crca4_officefurnituresales_BulkDeleteFailures": "Bulk Delete Failures",
+      "crca4_officefurnituresales_DuplicateBaseRecord": "Duplicate Records (crca4_officefurnituresales_DuplicateBaseRecord)",
+      "crca4_officefurnituresales_DuplicateMatchingRecord": "Duplicate Records (crca4_officefurnituresales_DuplicateMatchingRecord)",
+      "crca4_officefurnituresales_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "crca4_officefurnituresales_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "crca4_officefurnituresales_ProcessSession": "Process Sessions",
+      "crca4_officefurnituresales_SyncErrors": "Sync Errors",
+      "crca4_officefurnituresalesid": "Office Furniture Sales",
+      "crca4_orderid": "Order ID",
+      "crca4_price": "Price",
+      "crca4_price_base": "Price (Base)",
+      "crca4_product": "Product",
+      "crca4_productid": "Product_ID",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "exchangerate": "Exchange Rate",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "transactioncurrencyid": "Currency",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Office Furniture Sales",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Office Furniture Sales (Views)",
+    "Name": "_crca4_officefurnituresales_views",
+    "RelatedEntityName": "Office Furniture Sales",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "250dd707-d4e8-4ba8-bb24-fecdba58e265": "Active Office Furniture Sales",
+      "413060b9-6762-412f-b727-7ee7ab022873": "Office Furniture Sales Lookup View",
+      "754bdd91-7633-44df-aeb6-4bd55a386e27": "Office Furniture Sales Advanced Find View",
+      "8c71c76b-4881-41ea-a4dd-76e7e28a69de": "Office Furniture Sales Associated View",
+      "f5015c97-ac97-4a94-ba1d-5c405075b833": "Inactive Office Furniture Sales"
+    }
+  },
+  {
+    "DisplayName": "Category (Office Furniture Sales)",
+    "Name": "crca4_officefurnituresales_crca4_category",
+    "OptionSetInfoNameMapping": {
+      "0": "OFFICE CHAIRS",
+      "1": "EXECUTIVE CHAIRS",
+      "2": "OFFICE DESKS",
+      "3": "DESK PEDESTALS",
+      "4": "RECEPTION FURNITURE AND FITTINGS",
+      "5": "CONFERENCE TABLES",
+      "6": "BOARDROOM TABLES",
+      "7": "SCREENS AND PARTITIONS",
+      "8": "OFFICE CUPBOARDS",
+      "9": "SHELVING"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crca4_category",
+        "OptionSetReferenceEntityName": "Office Furniture Sales"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "crca4_category",
+    "RelatedEntityName": "Office Furniture Sales",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Discount Available (Office Furniture Sales)",
+    "Name": "crca4_officefurnituresales_crca4_discountavailable",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crca4_discountavailable",
+        "OptionSetReferenceEntityName": "Office Furniture Sales"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "crca4_discountavailable",
+    "RelatedEntityName": "Office Furniture Sales",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Office Furniture Sales)",
+    "Name": "crca4_officefurnituresales_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Office Furniture Sales"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Office Furniture Sales",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Office Furniture Sales)",
+    "Name": "crca4_officefurnituresales_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Office Furniture Sales"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Office Furniture Sales",
+    "Type": "OptionSetInfo"
+  }
+]
